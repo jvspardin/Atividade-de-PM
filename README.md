@@ -1,10 +1,12 @@
 ># Atividade-de-PM
-> nome: João Vítor Sàtiro Pardin - ADS
+> nome: João Vítor Sátiro Pardin - ADS
 
 ## Atividade baseada no Livro Entendendo Algoritmos
+
 <hr>
 
 ## Algoritmo 1 - Busca Linear
+Algoritmo que percorre uma lista de forma sequencial para encontrar um elemento.
 ```python
 def busca_linear(lista, item):
     for i in range(len(lista)):
@@ -14,6 +16,7 @@ def busca_linear(lista, item):
 ```
 
 ## Algoritmo 2 - Busca Binária
+Algoritmo eficiente que localiza um elemento em uma lista ordenada, dividindo o intervalo de busca pela metade a cada passo.
 ```python
 def busca_binaria(lista, item):
     inicio = 0
@@ -31,7 +34,8 @@ def busca_binaria(lista, item):
     return None
 ```
 
-## Algoritmo 3 - Busca 
+## Algoritmo 3 - Ordenação por Seleção
+ Seleciona repetidamente o menor elemento e o coloca na posição correta.
 ```python
 def ordenacao_por_selecao(lista):
     n = len(lista)
