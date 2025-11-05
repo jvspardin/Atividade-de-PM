@@ -22,7 +22,7 @@ semaforo_contador(1)
 ```
 -----------------------------------------------------------------------
 ## Teste de Mesa
-```
+```python
 Rua A: VERDE | Rua B: VERMELHO | Tempo: 1
 Rua A: VERDE | Rua B: VERMELHO | Tempo: 2
 Rua A: VERDE | Rua B: VERMELHO | Tempo: 3
