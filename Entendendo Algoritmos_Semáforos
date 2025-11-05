@@ -1,5 +1,7 @@
 
-## Algoritmo Semáforo
+>## Algoritmo Semáforo
+
+´´´python
 def semaforo_contador(ciclos):
     for i in range(ciclos):
         for t in range(1, 16):  # verde por 16 "segundos"
@@ -14,6 +16,7 @@ def semaforo_contador(ciclos):
 
 # Rodar 1 ciclo
 semaforo_contador(1)
+´´´python
 -----------------------------------------------------------------------
 ## Teste de Mesa
 
