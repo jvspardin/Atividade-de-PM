@@ -2,7 +2,7 @@
 >Nome: João Vítor Sátiro Pardin -ADS 
 
 
-# O exemplo do livro
+## O exemplo do livro
 ```python
 def busca_binaria(lista, item):
     baixo = 0
@@ -21,7 +21,7 @@ def busca_binaria(lista, item):
 ```
 
 
-🔹 # Versão Robusta
+## Versão Robusta
 
 
 ```python
