@@ -1,103 +1,57 @@
-{
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/jvspardin/Atividade-de-PM/blob/main/Snippets_Importing_libraries.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "def semaforo_contador(ciclos):\n",
-        "    for i in range(ciclos):\n",
-        "        for t in range(1, 16):  # verde por 30 \"segundos\"\n",
-        "            print(f\"Rua A: VERDE | Rua B: VERMELHO | Tempo: {t}\")\n",
-        "        for t in range(1, 6):   # amarelo por 5 \"segundos\"\n",
-        "            print(f\"Rua A: AMARELO | Rua B: VERMELHO | Tempo: {t}\")\n",
-        "        for t in range(1, 16):\n",
-        "            print(f\"Rua A: VERMELHO | Rua B: VERDE | Tempo: {t}\")\n",
-        "        for t in range(1, 6):\n",
-        "            print(f\"Rua A: VERMELHO | Rua B: AMARELO | Tempo: {t}\")\n",
-        "        print(\"-\" * 30)\n",
-        "\n",
-        "# Rodar 1 ciclo\n",
-        "semaforo_contador(1)\n"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "IpJeTIGDJXVm",
-        "outputId": "46c805a1-f62b-45d7-82c9-2112908f0abb"
-      },
-      "execution_count": 2,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 1\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 2\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 3\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 4\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 5\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 6\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 7\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 8\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 9\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 10\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 11\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 12\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 13\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 14\n",
-            "Rua A: VERDE | Rua B: VERMELHO | Tempo: 15\n",
-            "Rua A: AMARELO | Rua B: VERMELHO | Tempo: 1\n",
-            "Rua A: AMARELO | Rua B: VERMELHO | Tempo: 2\n",
-            "Rua A: AMARELO | Rua B: VERMELHO | Tempo: 3\n",
-            "Rua A: AMARELO | Rua B: VERMELHO | Tempo: 4\n",
-            "Rua A: AMARELO | Rua B: VERMELHO | Tempo: 5\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 1\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 2\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 3\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 4\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 5\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 6\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 7\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 8\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 9\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 10\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 11\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 12\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 13\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 14\n",
-            "Rua A: VERMELHO | Rua B: VERDE | Tempo: 15\n",
-            "Rua A: VERMELHO | Rua B: AMARELO | Tempo: 1\n",
-            "Rua A: VERMELHO | Rua B: AMARELO | Tempo: 2\n",
-            "Rua A: VERMELHO | Rua B: AMARELO | Tempo: 3\n",
-            "Rua A: VERMELHO | Rua B: AMARELO | Tempo: 4\n",
-            "Rua A: VERMELHO | Rua B: AMARELO | Tempo: 5\n",
-            "------------------------------\n"
-          ]
-        }
-      ]
-    }
-  ],
-  "metadata": {
-    "colab": {
-      "name": "Snippets: Importing libraries",
-      "provenance": [],
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "display_name": "Python 3",
-      "name": "python3"
-    }
-  },
-  "nbformat": 4,
-  "nbformat_minor": 0
-}
+def semaforo_contador(ciclos):
+    for i in range(ciclos):
+        for t in range(1, 16):  # verde por 30 "segundos"
+            print(f"Rua A: VERDE | Rua B: VERMELHO | Tempo: {t}")
+        for t in range(1, 6):   # amarelo por 5 "segundos"
+            print(f"Rua A: AMARELO | Rua B: VERMELHO | Tempo: {t}")
+        for t in range(1, 16):
+            print(f"Rua A: VERMELHO | Rua B: VERDE | Tempo: {t}")
+        for t in range(1, 6):
+            print(f"Rua A: VERMELHO | Rua B: AMARELO | Tempo: {t}")
+        print("-" * 30)
+
+# Rodar 1 ciclo
+semaforo_contador(1)
+-----------------------------------------------------------------------
+# Teste de Mesa
+
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 1
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 2
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 3
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 4
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 5
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 6
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 7
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 8
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 9
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 10
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 11
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 12
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 13
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 14
+Rua A: VERDE | Rua B: VERMELHO | Tempo: 15
+Rua A: AMARELO | Rua B: VERMELHO | Tempo: 1
+Rua A: AMARELO | Rua B: VERMELHO | Tempo: 2
+Rua A: AMARELO | Rua B: VERMELHO | Tempo: 3
+Rua A: AMARELO | Rua B: VERMELHO | Tempo: 4
+Rua A: AMARELO | Rua B: VERMELHO | Tempo: 5
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 1
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 2
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 3
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 4
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 5
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 6
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 7
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 8
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 9
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 10
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 11
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 12
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 13
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 14
+Rua A: VERMELHO | Rua B: VERDE | Tempo: 15
+Rua A: VERMELHO | Rua B: AMARELO | Tempo: 1
+Rua A: VERMELHO | Rua B: AMARELO | Tempo: 2
+Rua A: VERMELHO | Rua B: AMARELO | Tempo: 3
+Rua A: VERMELHO | Rua B: AMARELO | Tempo: 4
+Rua A: VERMELHO | Rua B: AMARELO | Tempo: 5
