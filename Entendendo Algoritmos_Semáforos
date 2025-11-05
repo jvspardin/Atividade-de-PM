@@ -1,6 +1,8 @@
+
+## Algoritmo Semáforo
 def semaforo_contador(ciclos):
     for i in range(ciclos):
-        for t in range(1, 16):  # verde por 30 "segundos"
+        for t in range(1, 16):  # verde por 16 "segundos"
             print(f"Rua A: VERDE | Rua B: VERMELHO | Tempo: {t}")
         for t in range(1, 6):   # amarelo por 5 "segundos"
             print(f"Rua A: AMARELO | Rua B: VERMELHO | Tempo: {t}")
@@ -8,12 +10,12 @@ def semaforo_contador(ciclos):
             print(f"Rua A: VERMELHO | Rua B: VERDE | Tempo: {t}")
         for t in range(1, 6):
             print(f"Rua A: VERMELHO | Rua B: AMARELO | Tempo: {t}")
-        print("-" * 30)
+        print("-" * 40)
 
 # Rodar 1 ciclo
 semaforo_contador(1)
 -----------------------------------------------------------------------
-# Teste de Mesa
+## Teste de Mesa
 
 Rua A: VERDE | Rua B: VERMELHO | Tempo: 1
 Rua A: VERDE | Rua B: VERMELHO | Tempo: 2
