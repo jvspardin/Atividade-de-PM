@@ -1,5 +1,5 @@
 
->## Algoritmo Semáforo
+## Algoritmo Semáforo
 
 ´´´python
 def semaforo_contador(ciclos):
@@ -16,7 +16,7 @@ def semaforo_contador(ciclos):
 
 # Rodar 1 ciclo
 semaforo_contador(1)
-´´´python
+´´´
 -----------------------------------------------------------------------
 ## Teste de Mesa
 
