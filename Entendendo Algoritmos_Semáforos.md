@@ -1,7 +1,7 @@
 ># Atividade-de-PM
 > nome: João Vítor Sátiro Pardin - ADS
-
-
+---
+- Atividade sobre o livro entendendo algoritmos. Criar um algoritmo melhorado do livro.
 ## Algoritmo Semáforo
 
 ```python
@@ -20,7 +20,7 @@ def semaforo_contador(ciclos):
 # Rodar 1 ciclo
 semaforo_contador(1)
 ```
------------------------------------------------------------------------
+---
 ## Teste de Mesa
 ```python
 Rua A: VERDE | Rua B: VERMELHO | Tempo: 1
