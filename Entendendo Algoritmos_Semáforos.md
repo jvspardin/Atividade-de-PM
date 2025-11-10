@@ -1,5 +1,5 @@
 ># Atividade-de-PM
-> nome: João Vítor Sátiro Pardin - ADS
+> nomes:  - ADS
 ---
 - Atividade sobre o livro entendendo algoritmos. Criar um algoritmo melhorado do livro.
 ## Algoritmo Semáforo
