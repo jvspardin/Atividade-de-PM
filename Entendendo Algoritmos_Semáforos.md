@@ -110,12 +110,26 @@ Rua A: VERMELHO  | Rua B: AMARELO | Tempo: 4
 Rua A: VERMELHO  | Rua B: AMARELO | Tempo: 5
 (BFS) Visitando: Rua A: VERMELHO  | Rua B: AMARELO | Tempo no estado: 5
 ```
+---
 ## Explicação do teste de mesa
 Funciona com a busca em largura(BFS) que roda a execução e verifica/visita os semáforos enquanto estão funcionando para mudar de fase corretamente.
-os semáforos funcionam de forma que cada fase dura por determinado tempo. Exemplo:
+os semáforos funcionam de forma que cada fase dura por determinado tempo.
 
-🟢 Verde fica por 15 segundos 
+Exemplo:
+
+🟢Verde fica por 15 segundos 
 
 🔴Vermelho fica por 15 segundos
 
 🟡Amarelo fica por 5 segundos
+
+## Outros exemplos
+outros exemplos foram a (BFS) em um sistema de metro, para calcular o trajeto mais rápido de uma estação até outra, ou o melhor caminho até o destino.
+uma explicação breve de como funciona a busca em largura.
+Funciona de forma que o (BFS) percorre os grafos que são os indicadores de rotas, atraves disso pode encontrar o melhor ou menor caminho até o destino dentro do grafo
+Exemplos:
+O tamanho da trajetória do ponto A até B;
+
+O melhor trajeto entre Pontos A,E
+
+O tempo que leva para concluir a trajetória;
