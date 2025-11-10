@@ -110,3 +110,12 @@ Rua A: VERMELHO  | Rua B: AMARELO | Tempo: 4
 Rua A: VERMELHO  | Rua B: AMARELO | Tempo: 5
 (BFS) Visitando: Rua A: VERMELHO  | Rua B: AMARELO | Tempo no estado: 5
 ```
+## Explicação do teste de mesa
+Funciona com a busca em largura(BFS) que roda a execução e verifica/visita os semáforos enquanto estão funcionando para mudar de fase corretamente.
+os semáforos funcionam de forma que cada fase dura por determinado tempo. Exemplo:
+
+🟢 Verde fica por 15 segundos 
+
+🔴Vermelho fica por 15 segundos
+
+🟡Amarelo fica por 5 segundos
