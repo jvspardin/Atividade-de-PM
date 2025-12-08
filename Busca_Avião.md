@@ -1,14 +1,15 @@
-># Trabalho de PM 
+># Trabalho de PM
+>Nome: João Vítor, Felipe Miranda, Pablo Refundini - ADS
+
 **✈️ Trajeto do Avião para determinados Pontos**
 
-O algoritmo se baseia na busca em largura **(BFS)**, onde o avião possui um trajeto entre pontos e a busca em largura percorre cada ponto para saber qual a tragetória mais rápida e ideal paté determinado ponto.           
+O algoritmo se baseia onde o avião possui um trajeto entre pontos e percorre cada ponto da tragetória mais rápida.
 
 ---      
-# Adicionar codigo aqui ⬇️
 
 ### Algoritmo
 ``` python
-[16:54, 08/12/2025] Pablo Refundini: import numpy as np
+import numpy as np
 import plotly.graph_objects as go
 from PIL import Image
 import math
@@ -119,9 +120,8 @@ fig.show()
             math.sin((lat2-lat1)/2)**2 +
             math.cos(lat1)math.cos(lat2)*math.sin((lon2-lon1)/2)*2
 ```
-### Execução
-``` python
+### Imagem da Trajetória
+<img width="720" height="480" alt="image" src="https://github.com/user-attachments/assets/fc7fc458-ecf9-4f15-8370-dd7742662e77" />
 
-```
-.
 blob:https://web.whatsapp.com/ff2bee43-b2ed-4a4a-8f0c-8c037bc08643
+
