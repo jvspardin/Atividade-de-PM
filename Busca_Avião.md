@@ -121,7 +121,7 @@ fig.show()
             math.cos(lat1)math.cos(lat2)*math.sin((lon2-lon1)/2)*2
 ```
 ### Imagem da Trajetória
+
 <img width="720" height="480" alt="image" src="https://github.com/user-attachments/assets/fc7fc458-ecf9-4f15-8370-dd7742662e77" />
 
-blob:https://web.whatsapp.com/ff2bee43-b2ed-4a4a-8f0c-8c037bc08643
 
